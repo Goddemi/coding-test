@@ -9,7 +9,7 @@ function solution(num_list) {
   );
 }
 
-//reverse() 반대로 변경 순서.
+// reverse() 반대로 변경 순서.
 
 // 배열에 항목을 추가하거나 삭제합니다.
 // - push() : 배열 끝에 항목 추가
@@ -21,7 +21,7 @@ function solution(num_list) {
 // function solution(n, t) {
 //     return n * 2 ** t;
 // }
-//console.log(Math.pow(4, 0.5));
+// console.log(Math.pow(4, 0.5));
 // expected output: 2
 
 // function solution(n, t) {
@@ -43,7 +43,7 @@ function solution(num_list) {
 //     my_string.split("").reverse().join("")
 //  var answer = [...my_string].reverse().join("");
 
-//양꼬치 몫만 구해야 해서 정수화.
+// 양꼬치 몫만 구해야 해서 정수화.
 // const solution = (n,k) =>
 //     (12000*n + 2000*k) - parseInt(n/10)*2000
 

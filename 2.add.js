@@ -56,3 +56,16 @@ const solution3 = (angle) => {
 };
 
 console.log(solution3(181));
+
+// //function solution(id_pw, db) {
+//     let answer = ''
+//     db.map(v => {
+//         if (v[0] === id_pw[0]) {
+//             if (v[1] === id_pw[1]) answer = 'login'
+//             else answer = 'wrong pw'
+//         }
+//     })
+//     return answer === '' ? 'fail' : answer
+// }
+
+//Array.prototype.indexOf() - JavaScript - MDN Web Docs - Mozilla
