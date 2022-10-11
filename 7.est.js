@@ -54,3 +54,14 @@ console.log(Math.max(...array));
 
 //     return my_string.split("").filter(a=>a !== "u" && a !== "a" && a !== "i"&& a !== "o"&& a !== "e").join("");;
 // }
+
+// if 쓸 때 return의 활용. map 같은데 안에 들어잇을 때 언제 생략이 가능하고 언제 쓸 수 있는지. 리턴의 생략은 화살표 함수에만 쓴다고 생각하자.
+// const solution = (my_string) => {
+
+//     const answer = my_string.split("").map((ele)=>{
+//          if (ele === ele.toLowerCase()) { return ele.toUpperCase() }
+//          else { return ele.toLowerCase() }
+//      }).join("")
+//      return answer;
+
+//  }
