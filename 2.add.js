@@ -3,69 +3,63 @@
 
 //짝수의합.. damn!
 
-console.log(
-  new Array(10)
-    .fill(1)
-    .map((el, idx) => el * idx + 1)
-    .filter((el) => el % 2 === 0)
-    .reduce((acc, cur) => acc + cur)
-);
+// console.log(
+//   new Array(10)
+//     .fill(1)
+//     .map((el, idx) => el * idx + 1)
+//     .filter((el) => el % 2 === 0)
+//     .reduce((acc, cur) => acc + cur)
+// );
 
-// 개수 찾기
+// const solution3 = (angle) => {
+//   let answer = 0;
+//   if (angle < 90) {
+//     answer = 1;
+//   } else if (angle == 90) {
+//     answer = 2;
+//   } else if (90 < angle && angle < 180) {
+//     answer = 3;
+//   } else {
+//     answer = 4;
+//   }
 
-// const array = [1, 2, 3, 4, 5, 1];
-// const n = 1;
-
-// const solution = (array, n) => {
-//   const number = 0;
-//   array.forEach((el) => {
-//     if (el === n) {
-//       number++;
-//     }
-//   });
-
-//   return number;
+//   return answer;
 // };
-// solution(array, n);
 
-//각도기 왜안되지?
-// const solutions = (angle) => {
-//     let answer;
-//     angle < 90 && answer = 1;
-//     angle === 90 && answer = 2;
-//     angle > 90 && answer = 3;
-//     angle === 180 && answer = 4;
-//     return answer;
-// }
+// console.log(solution3(181));
 
-// 아래꺼는 왜안되지???
+const id_pw = { id: "kangchul", pw: 123 };
+const db = [
+  { id: "jungmin", pw: 321 },
+  { id: "kangchul", pw: 123 },
+  { id: "aaww", pw: 1122 },
+];
 
-const solution3 = (angle) => {
-  let answer = 0;
-  if (angle < 90) {
-    answer = 1;
-  } else if (angle == 90) {
-    answer = 2;
-  } else if (90 < angle && angle < 180) {
-    answer = 3;
-  } else {
-    answer = 4;
-  }
+function solution(id_pw, db) {
+  let answer = "";
+  db.map((v) => {
+    if (v[0] === id_pw[0]) {
+      if (v[1] === id_pw[1]) {
+        answer = "login";
+      } else {
+        answer = "wrong pw";
+      }
+    }
+  });
+  return answer === "" ? "fail" : answer;
+}
 
-  return answer;
-};
+console.log(solution(id_pw, db));
 
-console.log(solution3(181));
-
-// //function solution(id_pw, db) {
-//     let answer = ''
-//     db.map(v => {
-//         if (v[0] === id_pw[0]) {
-//             if (v[1] === id_pw[1]) answer = 'login'
-//             else answer = 'wrong pw'
-//         }
-//     })
-//     return answer === '' ? 'fail' : answer
-// }
+console.log(id_pw[0]);
 
 //Array.prototype.indexOf() - JavaScript - MDN Web Docs - Mozilla
+
+// var array = [
+// 	{name:"홍길동", age:"20"},
+// 	{name:"희동이", age:"25"},
+// 	{name:"희동이", age:"30"}
+// ];
+
+// var index1 = array.findIndex(obj => obj.name == "희동이"); //하나의 경우
+// var index2 = array.findIndex(obj => obj.name == "희동이" && obj.age == "30"); //여러개의 경우도 가능
