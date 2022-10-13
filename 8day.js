@@ -112,3 +112,13 @@
 // }
 
 //eval!!
+
+// 문자열 before와 after가 매개변수로 주어질 때,
+// before의 순서를 바꾸어 after를 만들 수 있으면 1을, 만들 수 없으면 0을 return 하도록 solution 함수를 완성해보세요.
+
+// const solution = (before, after) =>
+//  [...after].sort().join("") == [...before].sort().join("") ? 1: 0
+
+// 여기서 배운 것은 배열간의 같음은 == 두개짜리로도 같을 수 없다는 것이다. 참조값들간의 같고 다름 알아야 했다.
+const a = "string";
+console.log(![...a]);
