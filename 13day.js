@@ -19,3 +19,5 @@
 // let baseTenInt = 10;
 //   console.log(baseTenInt.toString(2));
 //   // "1010"이 출력됩니다
+
+// parseInt는 10진법 정수값으로 반환을 하고 toString은 그것을 다시 몇진법으로 바꿀지에 대한 것이다.
