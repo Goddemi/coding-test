@@ -51,3 +51,11 @@
 //     return parseInt(answer)
 
 // }
+
+let counter = 0;
+for (let i = 0; i < my_string.length; i++) {
+  if (!isNaN(my_string[i])) {
+    console.log("hi");
+    // counter += my_string[i]
+  }
+}
