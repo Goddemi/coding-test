@@ -1,5 +1,5 @@
 //짝수 홀수 따로 담기
-
+// 이거 중요.
 function solution(num_list) {
   return num_list.reduce(
     ([even, odd], curr) => {
@@ -9,27 +9,21 @@ function solution(num_list) {
   );
 }
 
-// reverse() 반대로 변경 순서.
+// 반대로 순서 변경
+reverse();
 
-// 배열에 항목을 추가하거나 삭제합니다.
-// - push() : 배열 끝에 항목 추가
-// - pop() : 배열 끝에서 항목 제거
-// - unshift() : 배열 앞에 항목 추가
-// - shift() :  배열 앞에서 항목 제거
+// 배열에 항목을 추가하거나 삭제합니다. push - unshift / pop - shift
+// - push() : 배열 끝에 항목 추가. 개수를 리턴.
+// - pop() : 배열 끝에서 항목 제거. 제거된 요소를 반환.
+// - unshift() : 배열 앞에 항목 추가 . 개수를 리턴.
+// - shift() :  배열 앞에서 항목 제거. 제거된 요소를 반환.
 
 // ** 거듭제곱을 구할 때
-// function solution(n, t) {
-//     return n * 2 ** t;
-// }
-// console.log(Math.pow(4, 0.5));
+function solution(n, t) {
+  return n * 2 ** t;
+}
+console.log(Math.pow(4, 0.5));
 // expected output: 2
-
-// function solution(n, t) {
-//     while (t-- > 0) n*=2;
-//     return n;
-// }
-
-// Array(5).fill(0) 이건가? 이 논리 기억해두기.
 
 // //1. join() 함수 사용하기
 // arr.join(separator)

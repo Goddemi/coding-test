@@ -1,5 +1,3 @@
-// 잘한거 같은데 뭘 놓쳤는지 모르겠다.
-// 하....
 //테스트 케이스 "AAB" ,2
 const solution = (name) => {
   let answer = [...name].length - 1;

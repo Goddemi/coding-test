@@ -3,13 +3,14 @@
 
 //짝수의합.. damn!
 
-// console.log(
-//   new Array(10)
-//     .fill(1)
-//     .map((el, idx) => el * idx + 1)
-//     .filter((el) => el % 2 === 0)
-//     .reduce((acc, cur) => acc + cur)
-// );
+//접근법
+console.log(
+  new Array(10)
+    .fill(1)
+    .map((el, idx) => el * idx + 1)
+    .filter((el) => el % 2 === 0)
+    .reduce((acc, cur) => acc + cur)
+);
 
 // const solution3 = (angle) => {
 //   let answer = 0;

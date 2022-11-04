@@ -1,14 +1,10 @@
 // string.length 된다는것.
 
 //배열의 유사도 풀이.
-// function solution(s1, s2) {
-//     const intersection = s1.filter((x) => s2.includes(x));
-//     return intersection.length;
-// }
-
-// arr.filter(callback(element[, index[, array]])[, thisArg])
-// callback
-// 각 요소를 시험할 함수. true를 반환하면 요소를 유지하고, false를 반환하면 버립니다.
+function solution(s1, s2) {
+  const intersection = s1.filter((x) => s2.includes(x));
+  return intersection.length;
+}
 
 //**Math.pow()**함수는base^exponent처럼 base 에 exponent를 제곱한 값을 반환합니다.
 //Math.sqrt() 함수는 숫자의 제곱근을 반환합니다.
@@ -28,7 +24,7 @@
 
 //my_string.split(letter).join('')
 
-// Slice()
+Slice();
 // slice()는 배열 메서드로 원하는 부분을 복사하고 새로운 배열로 리턴한다.
 // 배열을 변경하지 않는 것이 핵심이다.
 // 아래 예시를 살펴보자.
