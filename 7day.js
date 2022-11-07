@@ -28,10 +28,10 @@
 
 //  }
 
-// 아래 풀이도 참고 set과 map 공부하기
-// function solution(my_string) {
-//     return [...new Set(my_string)].join('');
-// }
+아래 풀이도 참고 set과 map 공부하기
+function solution(my_string) {
+    return [...new Set(my_string)].join('');
+}
 
 // 와우.
 // 머쓱이는 직육면체 모양의 상자를 하나 가지고 있는데 이 상자에 정육면체 모양의 주사위를 최대한 많이 채우고 싶습니다.

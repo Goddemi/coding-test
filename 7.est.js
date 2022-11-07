@@ -6,8 +6,8 @@ console.log(Math.max(...array));
 //for in 은 element가 객체의 키값을 순회한다.
 //for of 는 배열의 element들을 순회한다.
 
-//answer = [...my_string].map(v => v.repeat(n)).join("");
-//repeat 반복하게 하기.
+answer = [...my_string].map(v => v.repeat(n)).join("");
+repeat 반복하게 하기.
 
 //const sidex = [1,2,3]
 //const max = Math.max(...sides);
