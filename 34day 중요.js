@@ -20,8 +20,8 @@ function solution(fees, records) {
   return answer.sort((a, b) => a[0] - b[0]).map((v) => v[1]);
 }
 
-///하..
-//접근법은 비슷했으나 map과 reduce를 이용했는데
+//접근법은 비슷했으나 map과 reduce를 이용했는데 잘 안됐다.
+
 //문자열에 곱하기 1을 하면 숫자로 변합니다. .
 
 // if - else if -> 총 조건문이 100개 있을때 첫 if문 조건에 만족하면 뒤에 99개의 else if조건은 체크하지 않습니다.

@@ -2,15 +2,15 @@
 
 // 정수 배열 emergency가 매개변수로 주어질 때 응급도가 높은 순서대로 진료 순서를 정한 배열을 return하도록 solution 함수를 완성해주세요.
 
-// const solution = (emergency) => {
+const solution = (emergency) => {
 
-//     const newArray = [...emergency].sort((a,b)=>b-a);
+    const newArray = [...emergency].sort((a,b)=>b-a);
 
-//     const answer = emergency.map((ele) => {
-//        return newArray.indexOf(ele) + 1
-//     })
+    const answer = emergency.map((ele) => {
+       return newArray.indexOf(ele) + 1
+    })
 
-//     return answer;
-// }
+    return answer;
+}
 
-//emergency.slice() => 이렇게도 새로운 배열로 생성할 수 있다.
+emergency.slice() => 이렇게도 새로운 배열로 생성할 수 있다.
