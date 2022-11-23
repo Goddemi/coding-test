@@ -21,6 +21,7 @@ const solution = (sizes) => {
 }
 
 다른사람 풀이.
+***
 reduce안에서 구조분해할당 하는 부분이 인상깊다.
 
 

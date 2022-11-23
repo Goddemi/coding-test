@@ -30,4 +30,5 @@ const solution = (arr) => {
 const solution = (array, commands) =>
     commands.map((ele) => array.slice(ele[0]-1, ele[1]).sort((a,b) => a-b)[ele[2]-1])
 
+***명시적! 기억
 array destructuring을 사용하면 commands.map(([from,to,k])=>array.slice(from-1,to).sort((x,y)=>x>y)[k-1]) 이렇게 더 명시적으로 나타낼 수 있죠
