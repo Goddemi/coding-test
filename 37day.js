@@ -20,6 +20,7 @@ function solution(k, m, score) {
 
 //내 풀이 -> 시간초과 뜬다. 아래 풀이가 어떤면에서 효율적인지 -> while문 안에서 for문을 돌
 // 다 만들어서 계산하려고 하고 , 아래풀이는 만들면서 계산. 잘모르겠다.
+// sort는 원본 배열을 바꾸는 것이기 때문에 굳이 복사본을 만들지 않았다는 것.
 
 function solution(k, m, score) {
   let answer = 0;
