@@ -8,7 +8,7 @@
 //여기에 문제가 있었다.
 // const maxNum = Math.max(Object.values(counter).join(""))
 //이렇게 햇었는데 아래의 차이를 알았어야 했다.
-// let a1 = arr1.join(); // default는 ',' 입니다
+// let a1 = arr1.join(); // default는 ',' 입니다 *****
 // let a2 = arr2.join();
 // console.log(a1); // '1,2,3,4,5'
 // console.log(a2); // 'a,b,c,d'
