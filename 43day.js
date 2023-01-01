@@ -8,7 +8,7 @@ function solution(babbling) {
 
   const newArray = babbling.map((ele) => {
     for (let i = 0; i <= vocas.length; i++) {
-      ele = ele.replace(vocas[i], "1");
+      ele = ele.replace(vocas[i], "1"); //이게 핵심.
     }
 
     return ele;
