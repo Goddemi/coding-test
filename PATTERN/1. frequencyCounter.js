@@ -61,7 +61,7 @@ const solution3 = (arr1, arr2) => {
   for (let ele of arr2) {
     FrequencyCounter[ele] = FrequencyCounter[ele]
       ? FrequencyCounter[ele] + 1
-      : 0;
+      : 1;
   }
 
   for (let ele of arr1) {
